@@ -1,27 +1,12 @@
-/* General CSS stuff goes here. */
-body {
-    background-color: white;
-    }
-    .columnred {
-    height: 200px;
-    background-color: red;
-    }
-    .columnblue {
-    height: 200px;
-    background-color: blue;
-    }
-    .columngreen {
-    height: 200px;
-    background-color: green;
-    }
-    #jumbotron{
-        height: 650px;
-        width: 1250px;
-        background-image: url(../assets/img/pexels-photo-67517.jpeg);
-        margin: 0px 0px 0px 100px;
-    }
-    
-   #jumbotron-text{
-       color: black;
-   }
-    
+/* Variables used throughout will go here. */
+/* CSS code for the NavBar section. */
+#main-nav {
+  padding-top: 5rem;
+  font-size: 180px;
+  padding-bottom: 1rem; }
+
+/* CSS code for the Footer section. */
+/* CSS code for the Portfolio section. */
+/* CSS code for the About section. */
+/* CSS code for the Contact section. */
+/* CSS code for the Footer section. */
