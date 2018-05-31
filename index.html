@@ -20,20 +20,20 @@
 <body>
     <!-- Navigation -->
 <!--Note that the text-uppercase will set the name in caps -->
-<div class="navbar navbar-default navbar-fixed-top text-uppercase" id="mainNav" role="navigation">
-    <div class="container">
+<div class="navbar navbar-default" id="mainNav" role="navigation">
+    <div class="container" id="navStyle">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle text-uppercase bg-primary" data-toggle="collapse" data-target=".navbar-collapse"
+            <button type="button" class="navbar-toggle bg-primary text-white rounded" data-toggle="collapse" data-target=".navbar-collapse"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar">Menu</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">EFA Starter Template</a>
+            <a class="navbar-brand text-uppercase navbar-left" id="developer-resume" href="#">Download My Resume</a>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right nav-choices">
                 <li class="active">
                     <a href="#">Home</a>
                 </li>
@@ -52,10 +52,10 @@
 </div>
   <br />
   <!-- Header -->
-<header class="jumbotron text-center" id="jumbotron">
+<header class="jumbotron text-center" id="main-header">
     <div class="container">
         <h1 class="jumbotron-heading">Ryan Gabbert</h1>
-        <p class="lead text-muted" id="jumbotron-text">Junior Developer</p>
+        <p class="lead text" id="jumbotron-text">Junior Developer</p>
         <p>
             <a href="#" class="btn btn-primary">GitHub</a>
             <a href="#" class="btn btn-primary">LinkdIn</a>
@@ -63,7 +63,7 @@
     </div>
   </header>
   <!-- Portfolio -->
-<section>
+<section id="portfolio">
     <h2 class="text-center text-uppercase text-blue">Portfolio</h2>
     <div class="row">
         <div class="col-md-4">
@@ -96,7 +96,7 @@
             <div class="thumbnail">
                 <img src="assets/img/badge-yellow.png" alt="">
                 <div class="text-center caption">
-                    <h3>ApI Project</h3>
+                    <h3>API Project</h3>
                     <p>Sub title</p>
                     <p>
                         <a href="#" class="btn btn-primary" role="button">Button</a>
@@ -108,27 +108,24 @@
     </div>
   </section>
   <!-- About -->
-<section class="bg-primary text-white">
+<section id="about" class="bg-primary text-white">
     <div class="container">
         <h2 class="text-center text-uppercase text-white">About</h2>
         <div class="row">
             <div class="col-md-4">
-                <p class="lead">Use this to get started with talking about your abilities. Here you will showcase your work, share contact
-                    information, attract employers, and get practice with front end development! let's have some fun!</p>
+                <p class="lead">My name is Ryan Gabbert. I am a junior developer currently in the JavaScript course at ElevenFifty Academy. I have been learning many useful skills with JavaScript,HTML, and CSS that will directly correlate to my future employment opportunities. </p>
             </div>
             <div class="col-md-4">
-                <p class="lead"> >Use this to get started with talking about your abilities. Here you will showcase your work, share contact
-                    information, attract employers, and get practice with front end development! let's have some fun!</p>
+                <p class="lead"> Before coming to ElevenFifty, I graduated from Univerity of Dayton in May 2017 with a Bachelors Degree in History, and a minor in Entrepreurship. After graduating I worked for a start-up company named Deck LLC, where I gained technical experience in; business development, front end web development, marketing, and customer relations. </p>
             </div>
             <div class="col-md-4">
-                <p class="lead"> >Use this to get started with talking about your abilities. Here you will showcase your work, share contact
-                    information, attract employers, and get practice with front end development! let's have some fun!</p>
+                <p class="lead"> In my free time I enjoy hiking, reading, playing soccer, and traveling. </p>
             </div>
         </div>
     </div>
   </section>
   <!-- Contact -->
-<section>
+<section id="contact">
     <div class="container">
         <h2 class="text-center text-uppercase">Contact Me</h2>
         <div class="row">
