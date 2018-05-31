@@ -6,16 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
      <!-- Bootstrap core CSS Modules-->
-     <link href="tools/bootstrap/dist/css/bootstrap-grid.min.css" rel="stylesheet">
-     <link href="tools/bootstrap/dist/css/bootstrap-reboot.min.css" rel="stylesheet">
-     <link href="tools/bootstrap/dist/css/bootstrap.min 2.css" rel="stylesheet">
+     <link href="tools/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
      <!-- Fonts -->
      <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
-     <link href="" rel="stylesheet" type="text/css">
+     
  
      <!-- Custom styles for this template -->
-     <link href="css/main.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" href="./tools/animate.css/animate.min.css">
+     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
@@ -26,11 +25,11 @@
             <button type="button" class="navbar-toggle bg-primary text-white rounded" data-toggle="collapse" data-target=".navbar-collapse"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar">Menu</span>
+                <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand text-uppercase navbar-left" id="developer-resume" href="#">Download My Resume</a>
+            <a class="navbar-brand text-uppercase navbar-left" class="section-title" id="developer-resume" href="https://docs.google.com/document/d/1Cl3Jsc2J8Kr-SnEU_k_2_Gij6MCCb1pty3wd2FefuMU/edit">View My Resume</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right nav-choices">
@@ -55,52 +54,56 @@
 <header class="jumbotron text-center" id="main-header">
     <div class="container">
         <h1 class="jumbotron-heading">Ryan Gabbert</h1>
+        <div class="section-description wow fadeInUp" data-wow-duration="5s">
         <p class="lead text" id="jumbotron-text">Junior Developer</p>
         <p>
-            <a href="#" class="btn btn-primary">GitHub</a>
-            <a href="#" class="btn btn-primary">LinkdIn</a>
+            <a href="https://github.com/ryangabbert?tab=repositories" class="btn btn-primary" id="header-action">GitHub</a>
+            <a href="https://www.linkedin.com/in/ryan-gabbert-a2a7a3144/" class="btn btn-primary">LinkedIn</a>
         </p>
     </div>
   </header>
   <!-- Portfolio -->
 <section id="portfolio">
-    <h2 class="text-center text-uppercase text-blue">Portfolio</h2>
-    <div class="row">
+    <div class="container wow fadeInUp">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="section-title">Portfolio</h3>
+                <div class="section-title-divider"></div>
+            </div>
+        </div>
+        <div class="row">
         <div class="col-md-4">
             <div class="thumbnail">
-                <img src="assets/img/badge-blue.png" alt="">
+                <img src="assets/img/Screen Shot 2018-05-31 at 12.39.38 PM.png" alt="">
                 <div class="text-center caption">
                     <h3>CSS Creature Project</h3>
                     <p>Sub title</p>
                     <p>
-                        <a href="#" class="btn btn-primary" role="button">Button</a>
-                        <a href="#" class="btn btn-default" role="button">Button</a>
+                        <a href="https://codepen.io/ryangabbert/pen/MGBoNV" class="btn btn-primary" role="button">View</a>
                     </p>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="thumbnail">
-                <img src="assets/img/badge-red.png" alt="">
+                <img src="assets/img/Screen Shot 2018-05-31 at 12.40.47 PM.png" alt="">
                 <div class="text-center caption">
                     <h3>Store Front Project</h3>
                     <p>Sub title</p>
                     <p>
-                        <a href="#" class="btn btn-primary" role="button">Button</a>
-                        <a href="#" class="btn btn-default" role="button">Button</a>
+                        <a href="https://ryangabbert.github.io/storeFront/" class="btn btn-primary" role="button">View</a>
                     </p>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="thumbnail">
-                <img src="assets/img/badge-yellow.png" alt="">
+                <img src="assets/img/Screen Shot 2018-05-31 at 12.43.12 PM.png" alt="">
                 <div class="text-center caption">
                     <h3>API Project</h3>
                     <p>Sub title</p>
                     <p>
-                        <a href="#" class="btn btn-primary" role="button">Button</a>
-                        <a href="#" class="btn btn-default" role="button">Button</a>
+                        <a href="https://star-wars-api-6253d.firebaseapp.com/" class="btn btn-primary" role="button">View</a>
                     </p>
                 </div>
             </div>
@@ -121,6 +124,7 @@
             <div class="col-md-4">
                 <p class="lead"> In my free time I enjoy hiking, reading, playing soccer, and traveling. </p>
             </div>
+            <img src="assets/img/profile-pic.jpg" alt="">
         </div>
     </div>
   </section>
@@ -171,8 +175,13 @@
         <a href="#">Terms</a>
     </p>
   </footer>  
-  <script src="tools/jquery/dist/jquery.min.js"></script>
-<script src="tools/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="tools/jquery/jquery.min.js"></script>
+<script src="tools/bootstrap/js/bootstrap.min.js"></script>
+
+ <!-- jQuery 3rd Party Scripts-->
+ <script src="./tools/wowjs/wow.min.js"></script>
+ <script src="./tools/magnific-popup/jquery.magnific-popup.min.js"></script>
+ <!-- Custom scripts for this template -->
 <script src="js/main.js"></script>
 </body>
 </html>
