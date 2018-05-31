@@ -2,6 +2,13 @@
 /* Variables used throughout will go here. */
 /* Variables used throughout will go here. */
 /* EFA Color pallete */
+/* Body section. */
+body {
+  padding: 15px; }
+
+header {
+  text-align: center; }
+
 /* CSS code for the NavBar section. */
 #main-nav {
   padding-top: 5rem;
@@ -70,8 +77,7 @@
 /* CSS code for the Header section. */
 #main-header {
   height: 600px;
-  background-image: url(../assets/img/adventure-clouds-country-258136.jpg)
-}
+  background-image: url(../assets/img/adventure-clouds-country-258136.jpg); }
 
 ​
 .jumbotron-heading {
@@ -80,6 +86,9 @@
 ​
 #header-action {
   margin-top: 30px; }
+
+.jumbotron .container {
+  max-width: 60rem; }
 
 /* CSS code for the Portfolio section. */
 /* CSS code for the About section. */

@@ -2,7 +2,8 @@
 
 /* CSS code for the Header section. */
 #main-header {
-    height: 400px;
+    height: 600px;
+  background-image: url(../assets/img/adventure-clouds-country-258136.jpg)
   }
   ​
   /* Bootstrap overrides */
@@ -12,5 +13,8 @@
   ​
   #header-action {
     margin-top: 30px;
+  }
+  .jumbotron .container {
+    max-width: 60rem;
   }
   
