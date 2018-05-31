@@ -24,8 +24,11 @@ header {
 #main-nav {
   padding-top: 5rem;
   font-size: 180px;
-  padding-bottom: 1rem; }
-
+  padding-bottom: 1rem; 
+}
+#navStyle{
+  background-color: lightgray;
+}
 /* CSS code for the Navbar section. */
 /* Styling for the navbar */
 /* X idea comes from this codepen: https://codepen.io/canarystudio/pen/MygmQp */
@@ -35,7 +38,9 @@ header {
   padding-top: 2rem;
   padding-bottom: 1rem;
   border-bottom: none;
-  background: transparent; }
+  background: transparent; 
+
+}
   ​
 ​
 #main-nav:hover {
@@ -88,11 +93,12 @@ header {
 /* CSS code for the Header section. */
 #main-header {
   height: 600px;
-  background-image: url(../assets/img/adventure-clouds-country-258136.jpg); }
+  background-image: url(../assets/img/pexels-photo-3.jpeg);}
 
 ​
 .jumbotron-heading {
-  padding-top: 50px; }
+  padding-top: 50px; 
+}
 
 ​
 #header-action {
@@ -164,5 +170,9 @@ header {
   transform: translate3d(0, 0, 0); }
 
 /* CSS code for the About section. */
+#aboutPic{
+  border: solid black;
+  border-radius: 50%;
+}
 /* CSS code for the Contact section. */
 /* CSS code for the Footer section. */

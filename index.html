@@ -7,7 +7,8 @@
     <title>Document</title>
      <!-- Bootstrap core CSS Modules-->
      <link href="tools/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+     <link href="node_modules/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="tools/font-awesome/css/font-awesome.min.css">
      <!-- Fonts -->
      <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
      
@@ -19,8 +20,8 @@
 <body>
     <!-- Navigation -->
 <!--Note that the text-uppercase will set the name in caps -->
-<div class="navbar navbar-default" id="mainNav" role="navigation">
-    <div class="container" id="navStyle">
+<div class="navbar navbar" id="mainNav" role="navigation">
+    <div class="container-fluid" id="navStyle">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle bg-primary text-white rounded" data-toggle="collapse" data-target=".navbar-collapse"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +41,7 @@
                     <a href="#about">About</a>
                 </li>
                 <li class="active">
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#portfolio">My Projects</a>
                 </li>
                 <li class="active">
                     <a href="#contact">Contact</a>
@@ -48,7 +49,7 @@
             </ul>
         </div>
     </div>
-</div>
+</div> 
   <br />
   <!-- Header -->
 <header class="jumbotron text-center" id="main-header">
@@ -59,6 +60,7 @@
         <p>
             <a href="https://github.com/ryangabbert?tab=repositories" class="btn btn-primary" id="header-action">GitHub</a>
             <a href="https://www.linkedin.com/in/ryan-gabbert-a2a7a3144/" class="btn btn-primary">LinkedIn</a>
+           
         </p>
     </div>
   </header>
@@ -67,7 +69,7 @@
     <div class="container wow fadeInUp">
         <div class="row">
             <div class="col-md-12">
-                <h3 class="section-title">Portfolio</h3>
+                <h3 class="section-title">My Projects</h3>
                 <div class="section-title-divider"></div>
             </div>
         </div>
@@ -107,7 +109,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
   </section>
   <!-- About -->
@@ -124,7 +126,7 @@
             <div class="col-md-4">
                 <p class="lead"> In my free time I enjoy hiking, reading, playing soccer, and traveling. </p>
             </div>
-            <img src="assets/img/profile-pic.jpg" alt="">
+            <img src="assets/img/profile-pic.jpg" alt="" id="aboutPic">
         </div>
     </div>
   </section>
@@ -133,17 +135,19 @@
     <div class="container">
         <h2 class="text-center text-uppercase">Contact Me</h2>
         <div class="row">
-            <form>
+            <form action="https://formspree.io/rgabb08@gmail.com" method="POST">
                 <div class="control-group">
                     <div class="form-group">
                         <label>Name</label>
-                        <input class="form-control" id="name" type="text" placeholder="Name">
+                        <input type="text"class="form-control" placeholder="Your Name"id="name" required="" data-validation-required-message="Please enter your name" name="name">
+                        <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="control-group">
                     <div class="form-group">
                         <label>Email Address</label>
-                        <input class="form-control" id="email" type="email" placeholder="Email Address">
+                        <input type="email" class="form-control" placeholder="Your Email" id="email" name="_replyto">
+                        <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="control-group">
@@ -153,14 +157,17 @@
                     </div>
                 </div>
                 <div class="control-group">
-                    <div class="form-group">
-                        <label>Message</label>
-                        <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required="" data-validation-required-message="Please leave a message"
+                                name="message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn btn-primary">Send</button>
-                </div>
+                    <div class="text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-lg btn-black">
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>Send Message</button>
+                        </div>
             </form>
         </div>
     </div>
