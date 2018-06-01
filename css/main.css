@@ -24,11 +24,8 @@ header {
 #main-nav {
   padding-top: 5rem;
   font-size: 180px;
-  padding-bottom: 1rem; 
-}
-#navStyle{
-  background-color: lightgray;
-}
+  padding-bottom: 1rem; }
+
 /* CSS code for the Navbar section. */
 /* Styling for the navbar */
 /* X idea comes from this codepen: https://codepen.io/canarystudio/pen/MygmQp */
@@ -38,9 +35,7 @@ header {
   padding-top: 2rem;
   padding-bottom: 1rem;
   border-bottom: none;
-  background: transparent; 
-
-}
+  background: transparent; }
   ​
 ​
 #main-nav:hover {
@@ -93,12 +88,11 @@ header {
 /* CSS code for the Header section. */
 #main-header {
   height: 600px;
-  background-image: url(../assets/img/pexels-photo-3.jpeg);}
+  background-image: url(../assets/img/pexels-photo-3.jpeg); }
 
 ​
 .jumbotron-heading {
-  padding-top: 50px; 
-}
+  padding-top: 50px; }
 
 ​
 #header-action {
@@ -170,9 +164,47 @@ header {
   transform: translate3d(0, 0, 0); }
 
 /* CSS code for the About section. */
-#aboutPic{
-  border: solid black;
-  border-radius: 50%;
-}
+#aboutPic {
+  border: absolute black;
+  border-radius: 50%; }
+
 /* CSS code for the Contact section. */
+/* CSS code for the Contact section. */
+​
+#contact {
+  margin: 50px; }
+
+​
+#contact .social-links ul {
+  list-style: none; }
+
+​
+#contact .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #53565A;
+  color: #fff;
+  line-height: 1;
+  padding: 12px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s; }
+
+​
+#contact .social-links a:hover {
+  background: #8acfba;
+  color: #fff; }
+
 /* CSS code for the Footer section. */
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #53565A;
+  font-size: 18px;
+  color: white; }
+
+​
+footer p {
+  margin-bottom: .25rem; }

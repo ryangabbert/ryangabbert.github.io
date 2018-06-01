@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Portfolio</title>
      <!-- Bootstrap core CSS Modules-->
      <link href="tools/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-     <link href="node_modules/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+     <link href="tools/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
      <link rel="stylesheet" href="tools/font-awesome/css/font-awesome.min.css">
      <!-- Fonts -->
      <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
      
  
      <!-- Custom styles for this template -->
-     <link rel="stylesheet" href="./tools/animate.css/animate.min.css">
+     <link rel="stylesheet" href="tools/animate.css/animate.min.css">
      <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
@@ -38,10 +38,10 @@
                     <a href="#">Home</a>
                 </li>
                 <li class="active">
-                    <a href="#about">About</a>
-                </li>
+                        <a href="#portfolio">My Projects</a>
+                    </li>
                 <li class="active">
-                    <a href="#portfolio">My Projects</a>
+                    <a href="#about">About</a>
                 </li>
                 <li class="active">
                     <a href="#contact">Contact</a>
@@ -58,8 +58,8 @@
         <div class="section-description wow fadeInUp" data-wow-duration="5s">
         <p class="lead text" id="jumbotron-text">Junior Developer</p>
         <p>
-            <a href="https://github.com/ryangabbert?tab=repositories" class="btn btn-primary" id="header-action">GitHub</a>
-            <a href="https://www.linkedin.com/in/ryan-gabbert-a2a7a3144/" class="btn btn-primary">LinkedIn</a>
+            <a href="https://github.com/ryangabbert?tab=repositories" class="btn btn-primary" id="header-action"style="font-size:24px"><i class="fa fa-github"></i>GitHub</a>
+            <a href="https://www.linkedin.com/in/ryan-gabbert-a2a7a3144/" class="btn btn-primary" style="font-size:24px"><i class="fa fa-linkedin-square"></i>Linkedin</a>
            
         </p>
     </div>
@@ -79,7 +79,6 @@
                 <img src="assets/img/Screen Shot 2018-05-31 at 12.39.38 PM.png" alt="">
                 <div class="text-center caption">
                     <h3>CSS Creature Project</h3>
-                    <p>Sub title</p>
                     <p>
                         <a href="https://codepen.io/ryangabbert/pen/MGBoNV" class="btn btn-primary" role="button">View</a>
                     </p>
@@ -91,7 +90,6 @@
                 <img src="assets/img/Screen Shot 2018-05-31 at 12.40.47 PM.png" alt="">
                 <div class="text-center caption">
                     <h3>Store Front Project</h3>
-                    <p>Sub title</p>
                     <p>
                         <a href="https://ryangabbert.github.io/storeFront/" class="btn btn-primary" role="button">View</a>
                     </p>
@@ -103,7 +101,6 @@
                 <img src="assets/img/Screen Shot 2018-05-31 at 12.43.12 PM.png" alt="">
                 <div class="text-center caption">
                     <h3>API Project</h3>
-                    <p>Sub title</p>
                     <p>
                         <a href="https://star-wars-api-6253d.firebaseapp.com/" class="btn btn-primary" role="button">View</a>
                     </p>
@@ -131,10 +128,25 @@
     </div>
   </section>
   <!-- Contact -->
-<section id="contact">
-    <div class="container">
+<section id="contact" class="block block-bg-grey-dark">
+    <div class="container wow fadeInUp">
         <h2 class="text-center text-uppercase">Contact Me</h2>
         <div class="row">
+                <!--Info -->
+                <div class="col-md-3">
+                    <address>
+                        <strong>Ryan Gabbert</strong>
+                        <br>
+                        <i class="fa fa-map-pin"></i> 629 Mayfair Lane Carmel, IN 46032
+                        <br>
+                        <i class="fa fa-phone"></i> (317)-379-1587
+                        <br>
+                        <i class="fa fa-envelope-o"></i> rgabb08@gmail.com
+                        <br>
+                    </address>
+                </div>
+                 <!--Contact Form -->
+                <div class="col-md-6">
             <form action="https://formspree.io/rgabb08@gmail.com" method="POST">
                 <div class="control-group">
                     <div class="form-group">
@@ -177,7 +189,8 @@
     <p class="float-right">
         <a href="#">Back to top</a>
     </p>
-    <p>&copy; 2018 Developer Company, Inc. &middot;
+    <p>&copy; 2018 Ryan Gabbert, weekend project built for helping students &middot;
+            <p>This template is owned by &copy; Eleven Fifty Academy, but is free for you to use and make customer alterations!</p>
         <a href="#">Privacy</a> &middot;
         <a href="#">Terms</a>
     </p>
